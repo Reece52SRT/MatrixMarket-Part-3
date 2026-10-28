@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Android / Gradle
+.gradle/
+build/
+*.iml
+.idea/
+local.properties
+captures/
+
+# Release signing secrets - never commit
+keystore.properties
+*.jks
+*.keystore
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+App_Data/
+appsettings.Development.json
+
+# Firebase service account keys
+*firebase-adminsdk*.json
+service-account*.json

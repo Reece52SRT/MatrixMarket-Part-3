@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Login tokens and the offline database are never backed up to the cloud. -->
+<full-backup-content>
+    <exclude domain="file" path="datastore/" />
+    <exclude domain="database" path="matrix_market.db" />
+</full-backup-content>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat theme is required because MainActivity is an AppCompatActivity
+         (needed for BiometricPrompt and in-app language switching). Compose draws the UI. -->
+    <style name="Theme.MatrixMarket" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_purple</item>
+        <item name="colorPrimaryDark">@color/brand_dark</item>
+        <item name="colorAccent">@color/brand_purple</item>
+        <item name="android:windowBackground">@color/brand_dark</item>
+        <item name="android:statusBarColor">@color/brand_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+</resources>

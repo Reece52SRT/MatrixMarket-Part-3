@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "314417582987",
+    "project_id": "matrixmarket-63738",
+    "storage_bucket": "matrixmarket-63738.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314417582987:android:6f435cdf3dc92b098b958e",
+        "android_client_info": {
+          "package_name": "com.matrixmarket.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314417582987-nrcck357dvfvskm2654mfm89vj8kjqj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matrixmarket.app",
+            "certificate_hash": "26ce474e8e60c3f7182189c2a9e24391106084e7"
+          }
+        },
+        {
+          "client_id": "314417582987-9lrn92g6gvckn91l8ndcss2n666lac17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTHsl9hYZc8p7EkLhxIqq3I2-HgYGVeXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314417582987-9lrn92g6gvckn91l8ndcss2n666lac17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

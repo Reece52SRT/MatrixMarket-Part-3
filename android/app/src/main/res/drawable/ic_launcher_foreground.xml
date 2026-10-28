@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Matrix Market app icon: a bold white "M" with a gold price-tag dot. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,72L34,38L43,38L54,54L65,38L74,38L74,72L66,72L66,51.5L56.5,65.5L51.5,65.5L42,51.5L42,72Z" />
+    <path
+        android:fillColor="#FFD4AF37"
+        android:pathData="M78,34m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

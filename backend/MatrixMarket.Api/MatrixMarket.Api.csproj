@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RootNamespace>MatrixMarket.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Relational database (SQLite via EF Core) - users, listings, offers, trades -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+
+    <!-- Security: our own JWTs + BCrypt password hashing -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+
+    <!-- NoSQL document database (notifications inbox, watchlist, device tokens) -->
+    <PackageReference Include="LiteDB" Version="5.0.21" />
+
+    <!-- Blob storage for listing photos (Azure Blob Storage) -->
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.21.2" />
+
+    <!-- Firebase Cloud Messaging (real-time push notifications) -->
+    <PackageReference Include="FirebaseAdmin" Version="3.0.0" />
+
+    <!-- API documentation -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+</Project>
