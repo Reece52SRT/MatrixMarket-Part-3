@@ -11,7 +11,7 @@
 textbooks, electronics, residence essentials and tutoring - meeting at verified safe spots and
 building a Student Score with every completed trade.
 
-**Demo video (Final POE):** _add YouTube link here_ - Part 2 video: https://youtu.be/bWXjJIiWVVY
+**Demo video (Final POE):** _add YouTube link here_ - Part 3 video: https://youtu.be/nASFOwTEzYc
 
 ## Team
 | Name | Student number |
